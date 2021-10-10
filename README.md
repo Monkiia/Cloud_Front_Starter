@@ -20,7 +20,7 @@ http://yourdiningbot.s3-website-us-east-1.amazonaws.com/
 We use Amazon SES to send email but since it is a sandbox environment, make sure that the email address you entered are validated!!! Or you wont receive suggestions emails.
 Contact sc4932@nyu.edu and sr5742@nyu.edu to add your test email address
 
-## 5 cuisines ##
+## 6 Cuisines ##
 Thai, Indian, Japanese, Chinese, Italian, Mexican
 
 ## Demo Video to make your life easier ##
