@@ -21,7 +21,7 @@ We use Amazon SES to send email but since it is a sandbox environment, make sure
 Contact sc4932@nyu.edu and sr5742@nyu.edu to add your test email address
 
 ## 5 cuisines ##
-Thai,Japanese,Chinese,Italian,Mexican
+Thai, Indian, Japanese, Chinese, Italian, Mexican
 
 ## Demo Video to make your life easier ##
 
