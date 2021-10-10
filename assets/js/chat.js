@@ -51,12 +51,18 @@ $(document).ready(function() {
       .then((response) => {
         console.log(response);
         var data = response.data;
-
+        //
+        //console.log(data)
+        //data.messages
+        //data.messages && data.messages.length > 0
+        console.log(data);
+        data1 = "Yoyocheckitnow";
         if (data.messages && data.messages.length > 0) {
+
           console.log('received ' + data.messages.length + ' messages');
 
           var messages = data.messages;
-
+          console.log(messages);
           for (var message of messages) {
             if (message.type === 'unstructured') {
               insertResponseMessage(message.unstructured.text);
@@ -78,12 +84,12 @@ $(document).ready(function() {
             }
           }
         } else {
-          insertResponseMessage('Oops, something went wrong. Please try again.');
+          insertResponseMessage('Oops, something went wrong. Please try again. data.messages not Valid');
         }
       })
       .catch((error) => {
         console.log('an error occurred', error);
-        insertResponseMessage('Oops, something went wrong. Please try again.');
+        insertResponseMessage('Oops, something went wrong. Please try again. Error');
       });
   }
 
