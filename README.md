@@ -8,16 +8,8 @@ Quasim Rizvi (sr5742@nyu.edu)
 
 ## About ##
 
-Frontend starter repository for HW 1 of the Cloud Computing & Big Data
-class at Columbia University and New York University.
+Dining bot, clearly not dumb
 
-## Usage ##
-
-1. Clone the repository.
-2. Replace `/assets/js/sdk/apigClient.js` with your own SDK file from API
-   Gateway.
-3. Open `chat.html` in any browser.
-4. Start sending messages to test the chatbot interaction.
 
 ## Front End Link ##
 
@@ -28,8 +20,11 @@ http://yourdiningbot.s3-website-us-east-1.amazonaws.com/
 We use Amazon SES to send email but since it is a sandbox environment, make sure that the email address you entered are validated!!! Or you wont receive suggestions emails.
 Contact sc4932@nyu.edu and sr5742@nyu.edu to add your test email address
 
-## Demo Video to save grading time ##
+## 5 cuisines ##
+Thai,Japanese,Chinese,Italian,Mexican
 
-link TBD
+## Demo Video to make your life easier ##
+
+https://www.dropbox.com/s/9obngulwisg35bp/21-26-00.mp4?dl=0
 
 
